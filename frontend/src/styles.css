@@ -35,3 +35,9 @@ button.ghost { background: transparent; color: var(--ink); border: 1px solid var
 input, textarea { width: 100%; padding: 10px; border-radius: 12px; border: 1px solid var(--line); font: inherit; margin: 6px 0 12px; background: #fff; }
 .menu-btn { position: fixed; left: 16px; top: 16px; z-index: 10; }
 .err { color: #a33; }
+.badge {
+  display: inline-block; font-size: 12px; color: #a33;
+  border: 1px solid #e3b3b3; border-radius: 999px; padding: 1px 8px; margin-left: 6px;
+}
+.prev-note { background: #fbeaea; border: 1px dashed var(--line); border-radius: 12px; padding: 10px; }
+button:disabled { opacity: .45; cursor: not-allowed; }
